@@ -242,7 +242,7 @@ PRODUCT_PACKAGES += \
     libmorpho_wdr2 \
     libmpbase \
     libsymphonypower \
-    fingerprint.default \
+    fingerprint.sdm845 \
     libRbsFlow \
     libets_teeclient_v2 \
     libsensor_lge_cal \

@@ -4099,7 +4099,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "fingerprint.default",
+    name: "fingerprint.sdm845",
     owner: "lge",
     strip: {
         none: true,
@@ -4107,7 +4107,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/hw/fingerprint.default.so",
+                "proprietary/vendor/lib64/hw/fingerprint.sdm845.so",
             ],
             shared_libs: [
                 "liblog",
